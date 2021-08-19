@@ -1,0 +1,20 @@
+[package]
+name = "tokio-wss-demo"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+native-tls = "0.2.7"
+url = "2.2.2"
+tungstenite = "0.14.0"
+tokio = { version="1.8.0", features=["full"] }
+tokio-tungstenite = "*"
+tokio-native-tls = "0.3.0"
+futures-util = "0.3.15"
+# gzip decompression
+flate2 = "1.0.20"
+# json parser
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
