@@ -18,3 +18,8 @@ flate2 = "1.0.20"
 # json parser
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+
+async-trait = "0.1.51"
+# extract data
+inflate = "0.4.5"
+futures-channel = "0.3.16"
